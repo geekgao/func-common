@@ -1,8 +1,8 @@
 ## ---------------------------------------------------------
 ## common functions
-## author:   samli AT tencent.com | huanlf AT gmail.com
+## author:   samli AT tencent.com | huanlf AT gmail.com | mail@gaochao.me
 ## usage:    source "./func-common.sh"
-## last mod: 2009-07-10
+## last mod: 2014-02-24
 ## ---------------------------------------------------------
 
 
