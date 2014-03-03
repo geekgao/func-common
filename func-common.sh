@@ -1178,7 +1178,7 @@ get_uptime()
 get_mem_usage_rate()
 {
     local used=`free | sed -n '2p' | awk '{print $3}'`
-    local total=`get_mem_size M`
+    local total=`get_mem_size K`
 
     echo "scale=2;$used/$total*100"|bc
 }
