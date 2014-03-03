@@ -1773,6 +1773,21 @@ check_http_status()
 
 ## ---------------------------------------------------------
 
+## ------------------------ delta backup ---------------------
+
+##Delta backup locally
+##Usage: rsync_local_backup /source/dir/files/ /backup/dir/files
+rsync_local_backup()
+{
+    local src=$1
+    local dest=$2
+    rsync -au "$src" "$dest"
+}
+
+
+
+## ---------------------------------------------------------
+
 
 ## -------------------- init global vars -------------------
 
