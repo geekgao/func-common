@@ -1722,7 +1722,7 @@ is_app_running()
         RC=$?
     ## app name
     else
-        pgrep "$p" &> /dev/null
+        pgrep -f "$p" &> /dev/null
         RC=$?
     fi
     echo $RC
